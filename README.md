@@ -1,4 +1,6 @@
-# Face-Detector-OpenCV-for-SETIC-III
+# Facial-Detection-OpenCV-for-SETIC-III
+
+Facial detection program developed for a technological event at IFC São Bento do Sul
 
 1 - Install dependencies:
 
