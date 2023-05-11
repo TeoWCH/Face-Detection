@@ -1,13 +1,3 @@
-#!/usr/bin/env python
-#import cv2
-#import numpy as np
-
-
-#img = cv2.imread('djames.png')
-#cv2.imshow('image',img)
-#cv2.waitKey(0)
-#cv2.destroyAllWindows()
-
 from  __future__ import print_function
 import numpy as np
 import cv2
