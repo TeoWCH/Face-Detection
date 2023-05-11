@@ -34,10 +34,10 @@ while (cap.isOpened()):
         for (x, y, w, h) in faces:
             cv2.rectangle(frame, (x - 10, y - 20), (x + w + 10, y + h + 10), (0, 255, 255), 2)
             roi_gray = frame[y-15:y + h+10, x-10:x + w+10]
-            cv2.putText (frame, 'Pessoa detectada!', (175, 32), fonte_, 1, (255, 255, 255), 2)
+            cv2.putText (frame, 'Person found!', (175, 32), fonte_, 1, (255, 255, 255), 2)
 
     else:
-        cv2.putText (frame, 'Procurando...', (200, 32), fonte_, 1, (255, 255, 255), 2)
+        cv2.putText (frame, 'Searching...', (200, 32), fonte_, 1, (255, 255, 255), 2)
 
     cv2.putText (frame, "III Setic", (150, 465), fonte, 2, (0, 0, 0), 10)
     cv2.putText (frame, "III Setic", (150, 465), fonte, 2, (0, 255, 0), 2)
