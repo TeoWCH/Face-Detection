@@ -11,8 +11,6 @@ fonte_ = cv2.FONT_HERSHEY_COMPLEX
 
 face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 
-fullscreen_WND = cv2.WND_PROP_FULLSCREEN
-
 while (cap.isOpened()):
     ret,frame = cap.read()
     gray = cv2.cvtColor(frame,cv2.COLOR_BGR2GRAY)
@@ -29,11 +27,11 @@ while (cap.isOpened()):
     else:
         cv2.putText (frame, 'Searching...', (200, 32), fonte_, 1, (255, 255, 255), 2)
 
-    cv2.putText (frame, "III Setic", (150, 465), fonte, 2, (0, 0, 0), 10)
-    cv2.putText (frame, "III Setic", (150, 465), fonte, 2, (0, 255, 0), 2)
-    cv2.namedWindow("III Setic", 2)
-    cv2.setWindowProperty("III Setic", cv2.WND_PROP_FULLSCREEN, 1)
-    cv2.imshow("III Setic", frame)
+    # cv2.putText (frame, "II Setic - IFC - Campus SBS", (150, 465), fonte, 2, (0, 0, 0), 10)
+    # cv2.putText (frame, "II Setic - IFC - Campus SBS", (150, 465), fonte, 2, (0, 255, 0), 2)
+    cv2.namedWindow("Face Detection", 2)
+    cv2.setWindowProperty("Face Detection", cv2.WND_PROP_FULLSCREEN, 1)
+    cv2.imshow("Face Detection", frame)
     if cv2.waitKey(1) & 0xFF == ord('e'):
         break
 
