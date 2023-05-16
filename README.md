@@ -2,7 +2,7 @@
 
 ![1684263812331](image/README/1684263812331.png)
 
-> Facial detection project developed for a brazilian technological event at IFC São Bento do Sul(Federal Institute in the South of Brazil).
+> Facial detection project developed for a brazilian technological event at IFC São Bento do Sul — Federal Institute in the South of Brazil.
 
 ### Requirements:
 
