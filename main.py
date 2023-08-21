@@ -29,6 +29,7 @@ while (cap.isOpened()):
 
     # cv2.putText (frame, "II Setic - IFC - Campus SBS", (150, 465), fonte, 2, (0, 0, 0), 10)
     # cv2.putText (frame, "II Setic - IFC - Campus SBS", (150, 465), fonte, 2, (0, 255, 0), 2)
+    
     cv2.namedWindow("Face Detection", 2)
     cv2.setWindowProperty("Face Detection", cv2.WND_PROP_FULLSCREEN, 1)
     cv2.imshow("Face Detection", frame)
